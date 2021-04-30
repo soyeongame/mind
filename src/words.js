@@ -109,7 +109,7 @@ const words = [
   '나선환',
   '오로라',
   '음악',
-  '특별하게살자',
+  '주파수',
   '천재',
   '서바이벌',
   '카리스마',
@@ -127,6 +127,8 @@ const words = [
   '여름',
   '와플',
   '타투',
+  '토성',
+  '부산',
 ];
 
 export const chooseWord = () => words[Math.floor(Math.random() * words.length)];
