@@ -7,6 +7,10 @@ html(lang="ko")
 
     title 땃치마인드
   body
+  .addTitleText() {
+  const titleText = this.add.dom(this.camera.centerX, this.camera.centerY - 200, 'div', 'font-size: 27px', '전소연 5');
+  titleText.setClassName('title-menu');
+}
     #jsNotifications
     .loginBox
       form#jsLogin
@@ -41,8 +45,3 @@ html(lang="ko")
       window.events = !{events}
     script(src="/socket.io/socket.io.js")
     script(src="/main.js")
-
-    addTitleText() {
-  const titleText = this.add.dom(this.camera.centerX, this.camera.centerY - 200, 'div', 'font-size: 27px', '전소연 5');
-  titleText.setClassName('title-menu');
-}
