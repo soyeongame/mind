@@ -41,7 +41,7 @@ export const handleLeaderNotification = ({ word }) => {
 
 export const handleGameEnded = () => {
   enableChat();
-  setNotifs('🔫 게임 끝 🔫');
+  setNotifs('🦊 게임 끝 🦊');
   showWord();
   hideControls();
   resetCanvas();
@@ -51,7 +51,7 @@ export const handleGameEnded = () => {
 export const handleGameStarting = () => {
   enableChat();
   showWord();
-  setNotifs('⭐️ 곧 게임이 시작 됩니다 ⭐️');
+  setNotifs('🐹 곧 게임이 시작 됩니다 🐹');
 };
 
 // 정답 나왔을 시 알림
