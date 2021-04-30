@@ -415,7 +415,7 @@ exports.handleLeaderNotification = handleLeaderNotification;
 
 var handleGameEnded = function handleGameEnded() {
   (0, _chat.enableChat)();
-  setNotifs('🔫 게임 끝 🔫');
+  setNotifs('🦊 게임 끝 🦊');
   (0, _paint.showWord)();
   (0, _paint.hideControls)();
   (0, _paint.resetCanvas)();
@@ -427,7 +427,7 @@ exports.handleGameEnded = handleGameEnded;
 var handleGameStarting = function handleGameStarting() {
   (0, _chat.enableChat)();
   (0, _paint.showWord)();
-  setNotifs('⭐️ 곧 게임이 시작 됩니다 ⭐️');
+  setNotifs('🐹 곧 게임이 시작 됩니다 🐹');
 }; // 정답 나왔을 시 알림
 
 
